@@ -10,7 +10,6 @@ export default function About() {
     { title: "TailwindCSS", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /> },
     { title: "React", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" /> },
     { title: "NextJS", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" /> },
-    { title: "Framer Motion", icon: <img draggable={false} loading="lazy" className="h-6" src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/5q2uj9zv.png" /> },
   ]
 
   let backendTech: Tech[] = [
@@ -18,8 +17,9 @@ export default function About() {
     { title: "TypeScript", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" /> },
     { title: "NodeJS", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" /> },
     { title: "MongoDB", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" /> },
+    { title: "MySQL", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain-wordmark.svg" /> },
     { title: "DiscordJS", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/discordjs/discordjs-original.svg" /> },
-    { title: "Fastify", icon: <img draggable={false} loading="lazy" className="h-6" src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/g9j04tdrsj5wwzw76d.png" /> },
+    { title: "Java", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" /> },
   ]
 
   let otherTech: Tech[] = [
@@ -27,10 +27,7 @@ export default function About() {
     { title: "Github", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" /> },
     { title: "NPM", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg" /> },
     { title: "Visual Studio Code", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" /> },
-    { title: "Insomnia", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/qr3zqlfckx6hkdj0nl.png" /> },
     { title: "Cloudflare", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/me2uv8xk95n010sdwz.png" /> },
-    { title: "Hetzner", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/q4dzhs1beprvugs13m.png" /> },
-    { title: "Porkbun", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://r2.e-z.host/2082d908-7c65-4fc3-b02a-5f50f9141543/z3xmhz3k1rc24l433c.png" /> },
     { title: "Vercel", icon: <svg className="h-6 w-6 fill-[#000000]" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M24 22.525H0l12-21.05 12 21.05z" /></svg> },
     { title: "Linux", icon: <img draggable={false} loading="lazy" className="h-6 w-6" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" /> },
   ]
@@ -50,7 +47,7 @@ export default function About() {
         <ul className="grid grid-cols-2 gap-4 mt-4">
           <AboutCard
             title="Overall"
-            description="I have been interested in web development since the age of 15 but never attempted to create anything until I was almost 17 as I never knew where to start. By the end of my education, I hope to secure a rewarding job in web development, as it is a lifelong passion of mine. I enjoy creating things and find great satisfaction when others genuinely use and appreciate the end product."
+            description="Ich habe mit 10 angefangen zu Programmieren und habe angefangen mit Python bin dann auch Javascript umgestiegen und dann auf Java und später kam noch ein bisschen React und NextJS dazu."
             direction="top"
             span={2}
             delay={0.1}
@@ -58,7 +55,7 @@ export default function About() {
           />
           <AboutCard
             title="Frontend"
-            description="I have about a year of experience with frontend development, and I have worked with a variety of different frameworks and libraries."
+            description="Ich habe ein erfahrung mit HTML und CSS aber auch ein bisschen mit React und Next.js."
             tech={frontendTech}
             direction="left"
             span={1}
@@ -67,7 +64,7 @@ export default function About() {
           />
           <AboutCard
             title="Backend"
-            description="I haven't had as much experience with backend development, but I am currently learning how to use NodeJS and Fastify to create APIs."
+            description="Ich Programmiere hauptsächlich Minecraft Plugins aber auch Discord Bots etc."
             tech={backendTech}
             direction="right"
             span={1}
@@ -76,7 +73,7 @@ export default function About() {
           />
           <AboutCard
             title="Other Technologies"
-            description="When it comes to the development process, I use a wide variety of tools, services, and technologies."
+            description="Sachen die ich noch benutze um zu Programmieren."
             tech={otherTech}
             direction="bottom"
             span={2}
