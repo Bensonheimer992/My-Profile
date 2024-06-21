@@ -49,7 +49,7 @@ export default function About() {
         <ul className="grid grid-cols-2 gap-4 mt-4">
           <AboutCard
             title="Overall"
-            description="Ich habe mit 10 angefangen zu Programmieren und habe angefangen mit Python bin dann auch Javascript umgestiegen und dann auf Java und später kam noch ein bisschen React und NextJS dazu."
+            description="Ich habe mit 10 angefangen zu Programmieren und habe angefangen mit Python bin dann auf Javascript umgestiegen und dann auf Java und später kam noch ein bisschen React und NextJS dazu."
             direction="top"
             span={2}
             delay={0.1}
