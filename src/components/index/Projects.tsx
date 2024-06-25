@@ -23,6 +23,14 @@ export default function Projects() {
             delay={0.1}
             gradient="bg-gradient-to-br"
           />
+          <ProjectCard
+            url="https://bencraft.xyz" //TODO: Change URL to Spigot
+            title="Tycoon Plugin"
+            description="Dieses Plugin ist ein Spielmodus der für den Bencraft Server entwickelt wurde aber Kostenlos nutzbar ist."
+            image="https://bencraft.xyz/assets/img/Tycoon-Logo.png"
+            delay={0.1}
+            gradient="bg-gradient-to-br"
+          />
         </ul>
       </section>
     </>
