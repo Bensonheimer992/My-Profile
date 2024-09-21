@@ -31,6 +31,14 @@ export default function Projects() {
             delay={0.1}
             gradient="bg-gradient-to-br"
           />
+          <ProjectCard
+          url="https://alaxus.xyz"
+          title="Alaxus Bot"
+          description="Ein Discord Bot mit vielen Features und einem Dashboard."
+          image="https://alaxus.xyz/assets/img/logo.gif"
+          delay={0.1}
+          gradient="bg-gradient-to-br"
+          />
         </ul>
       </section>
     </>
